@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using System;
+using System.IO;
+
 public class Main : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -30,7 +33,7 @@ public class Main : MonoBehaviour
     string str;
     public void Start()
     {
-        Application.targetFrameRate = 60;//fps
+        Application.targetFrameRate = 10;//fps
         obj = new GameObject[N];//objects
         robot = (GameObject)Resources.Load("Robot");//Prefab of robot
         for (int i=0;i<N;i++)
@@ -39,7 +42,7 @@ public class Main : MonoBehaviour
             {
                 for (int k=0;k<genum;k++)
                 {
-                    mastercode[i,j,k]=Random.Range(0, stage*2+1) -stage;//create N gene random
+                    mastercode[i,j,k]=UnityEngine.Random.Range(0, stage*2+1) -stage;//create N gene random
                 }
             }
         }
@@ -49,26 +52,35 @@ public class Main : MonoBehaviour
         edit mastercode here
         */
         /*
-        for (int i=0;i<N;i++)
+        ------------------------------------ 
+        
+        
+        System.IO.StreamReader file = new System.IO.StreamReader(@"./Assets/Result/scrollgen.txt");
+        int[,] speed = new int[genetypes, genum];
+        for (int j = 0; j < genetypes; j++)
         {
-            for (int j = 0; j < 4; j++)
+            for (int k = 0; k < genum; k++)
             {
-                mastercode[i, j, 0] = -2;
-            }
-            for (int j = 0; j < 4; j++)
-            {
-                mastercode[i, j, 1] = 0;
-            }
-            for (int j = 0; j < 4; j++)
-            {
-                mastercode[i, j, 2] = 2;
-            }
-            for (int j = 0; j < 4; j++)
-            {
-                mastercode[i, j, 3] = 0;
+                speed[j, k] = int.Parse(file.ReadLine());
             }
         }
+        for (int i=0;i<N;i++)
+        {
+            for (int j = 0; j < genetypes; j++)
+            {
+                for (int k = 0; k < genum; k++)
+                {
+                    mastercode[i, j, k] = speed[j,k];
+                }
+            }
+        }
+
+        
+        ------------------------------------ 
         */
+
+
+        
 
         for (int i = 0; i < N; i++)//create object
         {
@@ -92,7 +104,7 @@ public class Main : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (frame==(limit*60))//time up
         {
@@ -187,13 +199,13 @@ public class Main : MonoBehaviour
             {
                 for (int k = 0; k < genum; k++)
                 {
-                    if (((generation+1)%mutagene_large==0 && Random.Range(0.0f, 1.0f) < mutarate_large) || ((generation + 1) % mutagene_large != 0 && Random.Range(0.0f, 1.0f) < mutarate))
+                    if (((generation+1)%mutagene_large==0 && UnityEngine.Random.Range(0.0f, 1.0f) < mutarate_large) || ((generation + 1) % mutagene_large != 0 && UnityEngine.Random.Range(0.0f, 1.0f) < mutarate))
                     {//if next generation have large mutation, mutarate->mutarate_large 
-                        mastercode[i, j, k] = Random.Range(0, stage*2+1) - stage;
+                        mastercode[i, j, k] = UnityEngine.Random.Range(0, stage*2+1) - stage;
                     }
                     else
                     {
-                        mastercode[i, j, k] = elitecode[System.Math.Min(Random.Range(0, elitenum-1), Random.Range(0, elitenum-1)), j, k];
+                        mastercode[i, j, k] = elitecode[System.Math.Min(UnityEngine.Random.Range(0, elitenum-1), UnityEngine.Random.Range(0, elitenum-1)), j, k];
                     }
                 }
             }

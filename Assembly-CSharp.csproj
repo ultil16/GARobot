@@ -63,6 +63,13 @@
     <Compile Include="Assets\Script\Info.cs" />
     <Compile Include="Assets\Script\Legspin.cs" />
     <Compile Include="Assets\Script\Main.cs" />
+    <None Include="Assets\Result\bestgen.txt" />
+    <None Include="Assets\Result\gen.txt" />
+    <None Include="Assets\Result\log.txt" />
+    <None Include="Assets\Result\x=-3gen.txt" />
+    <None Include="Assets\Result\30gen.txt" />
+    <None Include="Assets\Result\backlog.txt" />
+    <None Include="Assets\Result\scrollgen.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/uelac/Desktop/realdata/GARobot/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

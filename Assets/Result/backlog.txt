@@ -1,0 +1,64 @@
+score log
+  0.000    
+ 63.496    xxxxxxxxxxxxx
+ 74.509    xxxxxxxxxxxxxxx
+ 62.312    xxxxxxxxxxxxx
+ 68.960    xxxxxxxxxxxxxx
+ 59.068    xxxxxxxxxxxx
+ 61.345    xxxxxxxxxxxxx
+ 50.044    xxxxxxxxxxx
+ 72.996    xxxxxxxxxxxxxxx
+ 84.772    xxxxxxxxxxxxxxxxx
+ 96.069    xxxxxxxxxxxxxxxxxxxx
+ 77.255    xxxxxxxxxxxxxxxx
+ 70.804    xxxxxxxxxxxxxxx
+ 84.280    xxxxxxxxxxxxxxxxx
+ 69.822    xxxxxxxxxxxxxx
+ 71.147    xxxxxxxxxxxxxxx
+ 84.639    xxxxxxxxxxxxxxxxx
+ 89.325    xxxxxxxxxxxxxxxxxx
+ 71.699    xxxxxxxxxxxxxxx
+ 88.421    xxxxxxxxxxxxxxxxxx
+ 98.951    xxxxxxxxxxxxxxxxxxxx
+ 61.359    xxxxxxxxxxxxx
+ 73.218    xxxxxxxxxxxxxxx
+ 55.517    xxxxxxxxxxxx
+ 62.463    xxxxxxxxxxxxx
+ 64.816    xxxxxxxxxxxxx
+ 55.907    xxxxxxxxxxxx
+ 89.024    xxxxxxxxxxxxxxxxxx
+ 64.209    xxxxxxxxxxxxx
+ 61.474    xxxxxxxxxxxxx
+ 67.128    xxxxxxxxxxxxxx
+ 66.699    xxxxxxxxxxxxxx
+ 74.050    xxxxxxxxxxxxxxx
+ 78.154    xxxxxxxxxxxxxxxx
+ 80.818    xxxxxxxxxxxxxxxxx
+ 90.210    xxxxxxxxxxxxxxxxxxx
+ 81.498    xxxxxxxxxxxxxxxxx
+103.378    xxxxxxxxxxxxxxxxxxxxx
+122.438    xxxxxxxxxxxxxxxxxxxxxxxxx
+115.262    xxxxxxxxxxxxxxxxxxxxxxxx
+116.095    xxxxxxxxxxxxxxxxxxxxxxxx
+ 57.515    xxxxxxxxxxxx
+ 88.604    xxxxxxxxxxxxxxxxxx
+ 94.116    xxxxxxxxxxxxxxxxxxx
+ 85.541    xxxxxxxxxxxxxxxxxx
+111.656    xxxxxxxxxxxxxxxxxxxxxxx
+113.306    xxxxxxxxxxxxxxxxxxxxxxx
+115.313    xxxxxxxxxxxxxxxxxxxxxxxx
+114.744    xxxxxxxxxxxxxxxxxxxxxxx
+116.888    xxxxxxxxxxxxxxxxxxxxxxxx
+116.737    xxxxxxxxxxxxxxxxxxxxxxxx
+116.744    xxxxxxxxxxxxxxxxxxxxxxxx
+119.290    xxxxxxxxxxxxxxxxxxxxxxxx
+112.431    xxxxxxxxxxxxxxxxxxxxxxx
+113.501    xxxxxxxxxxxxxxxxxxxxxxx
+113.226    xxxxxxxxxxxxxxxxxxxxxxx
+121.298    xxxxxxxxxxxxxxxxxxxxxxxxx
+120.789    xxxxxxxxxxxxxxxxxxxxxxxxx
+120.176    xxxxxxxxxxxxxxxxxxxxxxxxx
+115.146    xxxxxxxxxxxxxxxxxxxxxxxx
+116.517    xxxxxxxxxxxxxxxxxxxxxxxx
+ 78.736    xxxxxxxxxxxxxxxx
+ 80.094    xxxxxxxxxxxxxxxxx

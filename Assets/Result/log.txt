@@ -1,0 +1,14 @@
+score log
+  0.000    
+ 71.195    xxxxxxxxxxxxxxx
+ 54.666    xxxxxxxxxxx
+ 74.436    xxxxxxxxxxxxxxx
+ 81.938    xxxxxxxxxxxxxxxxx
+ 78.841    xxxxxxxxxxxxxxxx
+116.522    xxxxxxxxxxxxxxxxxxxxxxxx
+121.999    xxxxxxxxxxxxxxxxxxxxxxxxx
+123.311    xxxxxxxxxxxxxxxxxxxxxxxxx
+127.440    xxxxxxxxxxxxxxxxxxxxxxxxxx
+134.914    xxxxxxxxxxxxxxxxxxxxxxxxxxx
+119.813    xxxxxxxxxxxxxxxxxxxxxxxx
+124.179    xxxxxxxxxxxxxxxxxxxxxxxxx
